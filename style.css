@@ -1,0 +1,51 @@
+/* 
+    Theme Name: My Expense
+    Author: Ahmed HR
+    Version: 1.0
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.base-container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 80px);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.menu-header-menu-container {
+    background-color: #202020;
+    color: lightgray;
+    margin: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-header-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: lightgray;
+}
+.current-menu-item a {
+    color: darkcyan;
+    outline: solid darkcyan 1px;
+    font-weight: bold;
+}

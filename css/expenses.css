@@ -1,0 +1,32 @@
+.expensesTable {
+    width: 90%;
+    margin: 10px auto;
+    border: solid black 2px;
+}
+
+.tabHEAD {
+    background-color: darkcyan;
+    border-bottom: 2px solid black;
+}
+.expensesTable .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 0.5fr;
+    align-items: stretch;
+    padding: 5px 5px;
+}
+
+.expensesTable .row > span{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted lightgray;
+    min-height: 45px;
+
+}
+
+.tabFOOTER {
+    display: grid;
+    grid-template-columns: 4fr 1fr 0.5fr;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: darkcyan;
+}
